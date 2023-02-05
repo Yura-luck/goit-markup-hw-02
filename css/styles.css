@@ -1,0 +1,107 @@
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #2e2f42;
+  background: #e5e5e5;
+}
+/* Hedear */
+.backround-header {
+  background: #ffffff;
+}
+.weblogo {
+  font-family: "Raleway";
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.33;
+  color: #4d5ae5;
+  text-decoration: none;
+}
+.logotyp {
+  font-family: "Raleway";
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.33;
+  color: #2e2f42;
+  text-decoration: none;
+}
+/* Heder + contacts */
+.navigation {
+  font-weight: 500;
+
+  color: #2e2f42;
+}
+.adress {
+  font-weight: 400;
+  color: #434455;
+}
+
+/* main основной контент */
+.head-title {
+  color: #ffffff;
+  font-size: 56px;
+  line-height: 1.07;
+  font-weight: 500;
+}
+.button-studio {
+  color: #ffffff;
+  background: #4d5ae5;
+  font-weight: 500;
+  cursor: pointer;
+}
+.button-studio:hover {
+  background: #404bbf;
+}
+
+.sektion-background {
+  background: #2e2f42;
+}
+.portfolio-button {
+  font-weight: 500;
+  background: #f4f4fd;
+  color: #4d5ae5;
+  cursor: pointer;
+}
+.portfolio-button:hover {
+  color: #ffffff;
+  background: #404bbf;
+  font-weight: 500;
+}
+.header-two {
+  font-size: 36px;
+  line-height: 1.11;
+}
+.header-two-portfolio {
+  font-size: 20px;
+  line-height: 1.2;
+  font-weight: 500;
+}
+
+.header-three {
+  font-size: 20px;
+  line-height: 1.2;
+  font-weight: 500;
+}
+
+.text {
+  color: #434455;
+  font-weight: 400;
+}
+/* ?\ footer */
+.logotyp-footer {
+  font-family: "Raleway";
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.33;
+  color: #f4f4fd;
+}
+.backround-footer {
+  background: #2e2f42;
+}
+.text-footer {
+  font-weight: 400;
+  color: #f4f4fd;
+}
+.hiden {
+  display: none;
+}
