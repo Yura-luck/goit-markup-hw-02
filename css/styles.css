@@ -3,11 +3,11 @@ body {
   font-size: 16px;
   line-height: 1.5;
   color: #2e2f42;
-  background: #e5e5e5;
+  background: #ffffff;
 }
 /* Hedear */
-.backround-header {
-  background: #ffffff;
+.backround-team {
+  background: #f4f4fd;
 }
 .weblogo {
   font-family: "Raleway";
