@@ -12,16 +12,13 @@ body {
   color: var(--color-primary);
   background: var(--color-lighte);
 }
-a:hover {
-  color: #4d5ae5;
-}
 
 ul {
   list-style: none;
 }
 /* Hedear */
 
-.backround-header .weblogo {
+.weblogo {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
@@ -74,7 +71,7 @@ ul {
   background: var(--color-brand);
   font-size: 18px;
   line-height: 1.16;
-  font-weight: 800;
+  font-weight: 500;
   letter-spacing: 0.03em;
   cursor: pointer;
 }
@@ -133,7 +130,7 @@ ul {
 
 .text {
   color: var(--color-secondary);
-  font-weight: 400;
+
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -173,12 +170,15 @@ ul {
 .team-item {
   background: #ffffff;
 }
-.weblogo {
-  font-family: "Raleway", sans-serif;
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.33;
-  color: var(--color-brand);
-  text-decoration: none;
-  letter-spacing: 0.03em;
+.navigation:hover {
+  color: #4d5ae5;
+}
+.navigation:focus {
+  color: #4d5ae5;
+}
+.adress:hover {
+  color: #4d5ae5;
+}
+.adress:focus {
+  color: #4d5ae5;
 }
