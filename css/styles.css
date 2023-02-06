@@ -1,107 +1,184 @@
+:root {
+  --color-brand: #4d5ae5;
+  --color-primary: #2e2f42;
+  --color-secondary: #434455;
+  --color-lighte: #ffffff;
+  --color-inverted: #f4f4fd;
+}
+
 body {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
-  line-height: 1.5;
-  color: #2e2f42;
-  background: #ffffff;
+  color: var(--color-primary);
+  background: var(--color-lighte);
+}
+a:hover {
+  color: #4d5ae5;
+}
+
+ul {
+  list-style: none;
 }
 /* Hedear */
-.backround-team {
-  background: #f4f4fd;
-}
-.weblogo {
-  font-family: "Raleway";
+
+.backround-header .weblogo {
+  font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.33;
-  color: #4d5ae5;
+  color: var(--color-brand);
   text-decoration: none;
+  letter-spacing: 0.03em;
 }
 .logotyp {
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.33;
-  color: #2e2f42;
+  color: var(--color-primary);
   text-decoration: none;
+  letter-spacing: 0.03em;
 }
 /* Heder + contacts */
 .navigation {
   font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  text-decoration: none;
+  list-style-type: none;
+  letter-spacing: 0.02em;
 
-  color: #2e2f42;
+  color: var(--color-primary);
 }
 .adress {
+  font-style: normal;
   font-weight: 400;
-  color: #434455;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--color-secondary);
+  text-decoration: none;
+  letter-spacing: 0.02em;
 }
 
 /* main основной контент */
 .head-title {
-  color: #ffffff;
+  color: var(--color-lighte);
   font-size: 56px;
   line-height: 1.07;
-  font-weight: 500;
+  font-weight: 700;
+  letter-spacing: 0.02em;
 }
 .button-studio {
-  color: #ffffff;
-  background: #4d5ae5;
-  font-weight: 500;
+  font-family: "Roboto", sans-serif;
+  color: var(--color-lighte);
+  background: var(--color-brand);
+  font-size: 18px;
+  line-height: 1.16;
+  font-weight: 800;
+  letter-spacing: 0.03em;
   cursor: pointer;
 }
 .button-studio:hover {
   background: #404bbf;
 }
+.button-studio:focus {
+  background: #404bbf;
+}
 
 .sektion-background {
-  background: #2e2f42;
+  background: var(--color-primary);
 }
 .portfolio-button {
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0.04em;
   font-weight: 500;
-  background: #f4f4fd;
-  color: #4d5ae5;
+  font-size: 16px;
+  line-height: 1.5;
+  background: var(--color-inverted);
+  color: var(--color-brand);
   cursor: pointer;
 }
 .portfolio-button:hover {
-  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  color: var(--color-lighte);
   background: #404bbf;
   font-weight: 500;
 }
+.portfolio-button:focus {
+  background: #404bbf;
+  color: var(--color-lighte);
+}
 .header-two {
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
+  letter-spacing: 0.02em;
 }
 .header-two-portfolio {
   font-size: 20px;
   line-height: 1.2;
   font-weight: 500;
+  letter-spacing: 0.02em;
 }
 
 .header-three {
   font-size: 20px;
   line-height: 1.2;
   font-weight: 500;
+  letter-spacing: 0.02em;
+}
+.backround-team {
+  background: var(--color-inverted);
 }
 
 .text {
-  color: #434455;
+  color: var(--color-secondary);
   font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 /* ?\ footer */
 .logotyp-footer {
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.33;
-  color: #f4f4fd;
+  color: var(--color-inverted);
+  text-decoration: none;
+  letter-spacing: 0.03em;
 }
 .backround-footer {
-  background: #2e2f42;
+  background: var(--color-primary);
 }
 .text-footer {
   font-weight: 400;
-  color: #f4f4fd;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--color-inverted);
 }
-.hiden {
-  display: none;
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+.team-item {
+  background: #ffffff;
+}
+.weblogo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.33;
+  color: var(--color-brand);
+  text-decoration: none;
+  letter-spacing: 0.03em;
 }
